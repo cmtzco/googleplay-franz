@@ -1,0 +1,22 @@
+{
+  "name": "googleplay-franz",
+  "version": "1.0.0",
+  "description": "Franz plugin for Google Play Music",
+  "main": "index.js",
+  "author": "Chris Martinez <chris@cmtz.co>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://play.google.com/music?authuser",
+    "serviceName": "Google Play Music",
+    "message": "Google Play Music",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "customURL": false,
+    "hasTeamID": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
